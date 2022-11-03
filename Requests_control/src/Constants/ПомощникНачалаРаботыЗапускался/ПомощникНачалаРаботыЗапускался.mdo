@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edc2752c-81d4-4341-af40-cbb5e40d492a">
+  <producedTypes>
+    <managerType typeId="7db608ba-d83b-444d-8554-5592a7f5c627" valueTypeId="1255b48e-a30d-4df4-9768-81ede920cd79"/>
+    <valueManagerType typeId="4f699025-5308-4a11-8820-261c646d433b" valueTypeId="1b8ddecb-2ce8-4da8-9a42-23cb1f79e594"/>
+    <valueKeyType typeId="1b26a7e4-efa4-5728-90bd-00d71cf0b6c8" valueTypeId="3a11a074-aa93-5f89-86a7-64ac9fcfc545"/>
+  </producedTypes>
+  <name>ПомощникНачалаРаботыЗапускался</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник начала работы запускался</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

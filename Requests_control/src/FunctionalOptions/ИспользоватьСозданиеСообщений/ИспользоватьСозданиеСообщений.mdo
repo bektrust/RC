@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="880bd3e3-407a-473a-90a5-23a3bb57a20d">
+  <name>ИспользоватьСозданиеСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать создание сообщений</value>
+  </synonym>
+  <location>Constant.ИспользоватьСозданиеСообщений</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Сообщения.Command.КомандаСоздатьСообщение</content>
+</mdclass:FunctionalOption>

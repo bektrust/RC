@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71b80771-0e2a-49e8-8d7e-867b1714cc8c">
+  <name>ОбразецОтчетаВодянойЗнак</name>
+  <synonym>
+    <key>ru</key>
+    <value>Образец отчета водяной знак</value>
+  </synonym>
+</mdclass:CommonPicture>

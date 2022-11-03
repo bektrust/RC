@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d794250d-d023-4aed-9e87-081c2a456303">
+  <producedTypes>
+    <refType typeId="7fce77d7-a759-42de-8ecb-5d6af65a928a" valueTypeId="8c959972-a9a9-4a1c-977b-dbba337b6b51"/>
+    <listType typeId="98e1863b-0808-4a79-8652-1341fc761ff2" valueTypeId="5b40377b-1a95-4b7c-9a2b-6962cac35ce7"/>
+    <managerType typeId="1c1eb2eb-89b0-454a-9685-a6a1d2792bce" valueTypeId="3e882d2d-bf47-40e4-8e52-2e88abfb6a09"/>
+  </producedTypes>
+  <name>СпособыВыборкиОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы выборки обращений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="684c394a-7fa2-4e6f-919d-aced895e6561">
+    <name>НовыеИИзмененные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новые и измененные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f209676-7bf9-45bf-bc12-b2ef40c023c5">
+    <name>Любые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любые</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

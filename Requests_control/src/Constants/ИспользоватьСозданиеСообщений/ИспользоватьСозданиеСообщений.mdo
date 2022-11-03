@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b571f5c1-b17a-4f8b-bdd6-92f0e2c5f109">
+  <producedTypes>
+    <managerType typeId="5f1ad309-9b9f-420a-a1ed-963cc5b819dd" valueTypeId="0b4d6d7e-a6fd-4142-9a51-6b03216ceb52"/>
+    <valueManagerType typeId="ac9328d1-62c3-4c19-8953-0ad4c4836209" valueTypeId="53ba6c44-fc4a-4174-97aa-22430aa5dde5"/>
+    <valueKeyType typeId="aaf8396d-86d7-5e0f-891e-401c6cea1b74" valueTypeId="f80118d9-9c36-5ece-bfde-d58abbf60bbd"/>
+  </producedTypes>
+  <name>ИспользоватьСозданиеСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать создание сообщений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

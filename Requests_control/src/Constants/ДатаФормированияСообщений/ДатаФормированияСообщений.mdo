@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="952914e0-3b52-4906-aa19-b932585c4dd8">
+  <producedTypes>
+    <managerType typeId="b626ff70-fca5-4bad-8a5b-f9e508d1dd4e" valueTypeId="3b5b2dd5-3d76-40e6-8c4a-62a0dac05acf"/>
+    <valueManagerType typeId="9be64811-544f-4cee-a70b-a75c762bd79c" valueTypeId="6d6d0b20-cda5-45ed-9553-ba46854e23da"/>
+    <valueKeyType typeId="d95c4778-3eb9-5571-8ed8-2174a301488d" valueTypeId="9a487b78-ab59-5406-85eb-5ab3a654a28d"/>
+  </producedTypes>
+  <name>ДатаФормированияСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата формирования сообщений</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

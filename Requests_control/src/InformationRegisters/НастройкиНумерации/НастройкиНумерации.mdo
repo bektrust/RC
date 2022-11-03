@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8109ac0c-d829-4427-ba67-a38af066ddde">
+  <producedTypes>
+    <selectionType typeId="6dae6556-abd0-48e5-9619-8d3486a01967" valueTypeId="f688aa4c-d357-4808-909e-2f6162c530fe"/>
+    <listType typeId="80495e89-e289-4a4a-a07f-e04010c0e03c" valueTypeId="d2fab902-f11c-43c3-a3d3-d04f7aeabbc7"/>
+    <managerType typeId="221b12ee-6b44-4e21-8504-0466c3fc0774" valueTypeId="8f3c7a2a-a843-478b-b5b7-afa95aef1b6c"/>
+    <recordSetType typeId="cdc513f1-5162-4a27-ac3e-41d865fb5652" valueTypeId="86cdfa31-5142-4188-b9d7-d3659f8d4d67"/>
+    <recordKeyType typeId="98f3e613-7859-4111-a151-72c00e78e418" valueTypeId="561ec8db-6f85-4e49-8df2-ee1d1e5e4f5f"/>
+    <recordType typeId="6d40152b-08cf-460c-ba90-0f6e6a12e02c" valueTypeId="f1462a46-bd91-47f2-8355-ea35eaa64255"/>
+    <recordManagerType typeId="727d948b-5139-48ea-8ee4-f77315fc1601" valueTypeId="3f61c1b4-02d5-4c2b-8fd6-fa9a9484b9a3"/>
+  </producedTypes>
+  <name>НастройкиНумерации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки нумерации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиНумерации.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкиНумерации.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка нумерации</value>
+  </recordPresentation>
+  <resources uuid="0aea97db-6102-4094-ada4-136158cee34a">
+    <name>СпособНумерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ нумерации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыНумерации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6cb03f5e-6818-459c-85eb-2c1999cbba8b">
+    <name>Нумератор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумератор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Нумераторы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="70a78fbe-614c-4d1f-9e5f-44cc7ce3e48f">
+    <name>ВидОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обращения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОбращений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a55a4972-f81d-4828-8f1c-2f54e08163c8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="242072f7-e5ad-49d5-9747-c43b9e07b48b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

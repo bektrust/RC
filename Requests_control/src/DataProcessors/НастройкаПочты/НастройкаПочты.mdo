@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89da9dbf-a058-4da8-b7aa-4d3c3cfd9f68">
+  <producedTypes>
+    <objectType typeId="7c4d016d-07b4-494c-8eaa-c5293809cb43" valueTypeId="b1a7c47c-6dc4-4025-8274-77227ae9a6ec"/>
+    <managerType typeId="0b77f9df-450c-4862-b7f9-f7a0b35c4293" valueTypeId="e11af5cf-946a-4c7f-9d93-90f2eae1f1d5"/>
+  </producedTypes>
+  <name>НастройкаПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка почты</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкаПочты.Form.НастройкиЛегкойПочты</defaultForm>
+  <forms uuid="102bab04-9471-4fcf-9f07-9de3806428ba">
+    <name>ЗагрузкаMSOutlook</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор папки Microsoft Outlook для загрузки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="65882bb6-8747-40a3-a3c5-c80b03bbe4b4">
+    <name>ЗагрузкаПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>MAPI</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0bce840e-a84f-4bdf-a948-358dc75c081e">
+    <name>НастройкиЛегкойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки легкой почты</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aedfe111-1bda-4dd2-9773-66b9095a618a">
+    <name>ОтправкаMSOutlook</name>
+    <synonym>
+      <key>ru</key>
+      <value>MSOutlook</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="718ea394-f066-4cee-868a-dff98b81c782">
+    <name>ОтправкаTheBat</name>
+    <synonym>
+      <key>ru</key>
+      <value>The Bat</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c8759e9-6ebf-4de4-9119-34db3038124d">
+    <name>ОтправкаПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>MAPI</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="622a79af-6893-42c4-8887-abddf63ee22e">
+    <name>ОтправкаMozillaThunderbird</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mozilla Thunderbird</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7019d4be-b0aa-4907-beef-2bcfd4f6789d">
+    <name>ВыборВариантаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор варианта отправки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

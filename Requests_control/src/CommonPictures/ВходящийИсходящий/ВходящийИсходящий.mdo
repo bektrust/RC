@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f4eaa40-1d14-4c29-a5c4-f8d2d5efb911">
+  <name>ВходящийИсходящий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящий исходящий</value>
+  </synonym>
+</mdclass:CommonPicture>

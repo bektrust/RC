@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdcb52ea-ef6a-4454-882e-c652571e22c8">
+  <name>ФайлПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файл при записи</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Файлы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаСФайлами.ФайлПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5bb6f3f-c76a-40b3-83ad-7d1f00c75066">
+  <producedTypes>
+    <containerType typeId="95949234-dee8-4473-8a36-4ebc39bd3b76" valueTypeId="44f5a867-1505-41d3-bd82-938b35a7e7ac"/>
+  </producedTypes>
+  <name>ДатаРедакцииКлассификатора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата редакции классификатора</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6da034af-0481-4a3c-aff9-c50ced6f21d4">
+  <producedTypes>
+    <objectType typeId="f7b7dfa7-f3e7-47e1-96c2-e104a849b6a3" valueTypeId="4501beb0-c2dd-49f3-bfc2-e300f13f1dc1"/>
+    <managerType typeId="edfb7ba7-e938-437e-b1d8-681d9c758b51" valueTypeId="629126de-0167-4ad1-bc0b-969c70c96efd"/>
+  </producedTypes>
+  <name>ПолнотекстовыйПоискВДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнотекстовый поиск</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="71b92591-2666-4757-95c8-5af375f63ed5">
+    <name>ВыделятьСловаЦветом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделять ключевые слова цветом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b912242b-6218-4f62-a653-aeb05996c7e4">
+    <name>ИскатьСловаСОшибками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искать слова с ошибками</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="afb2fa9f-12c9-4c62-b092-fae83be00e50">
+    <name>ИскатьСочетанияСлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искать сочетания слов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e1239eb1-0e37-4eea-98dd-83d220d8b410">
+    <name>ОтображатьДополнительнуюИнформацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать дополнительную информацию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a80d7f9-3a86-432d-8aaa-71151aa191ce">
+    <name>ОтображатьТекстовоеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать текстовое описание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9a90544-d2ba-4f41-84f1-5b9100ebd749">
+    <name>ПорогНечеткости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог нечеткости</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="17b2a20f-b1e0-4d29-8c5b-d43b44c2bf31">
+    <name>РазделыПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделы поиска</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="32d4fd20-17d8-412c-ac8e-bbe02187b0f9">
+    <name>РезультатовНаСтранице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результатов на странице</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="062eecea-86e1-4fe3-9511-42c1b03074da">
+    <name>РасширенныйПоиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенный поиск</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="159bee27-70bd-4113-97cc-a68c101daa2d">
+    <name>ПустойРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустой результат</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="78024bba-a76d-459c-8743-496a6fe9b961">
+    <name>НичегоНеНайдено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ничего не найдено</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <commands uuid="9202335d-50bb-4282-9438-24c7fb9cf637">
+    <name>ПолнотекстовыйПоиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по всей базе</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut>Ctrl+Shift+F</shortcut>
+  </commands>
+</mdclass:DataProcessor>

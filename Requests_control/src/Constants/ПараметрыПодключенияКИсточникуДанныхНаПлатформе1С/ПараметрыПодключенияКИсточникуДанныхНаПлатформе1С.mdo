@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c18df8b1-cfe7-421a-8445-8b045957fdb6">
+  <producedTypes>
+    <managerType typeId="6b663c08-1055-4610-9668-b99c25bacf52" valueTypeId="b03fad02-33a5-4904-aa42-fb957e6244f0"/>
+    <valueManagerType typeId="6bca3c44-3373-4a74-9cc3-dbba3928422a" valueTypeId="ee7bc7e0-9d8c-428f-b62a-f8674d3d2050"/>
+    <valueKeyType typeId="055c32b8-564b-5371-a1f0-feca40ed1714" valueTypeId="98520632-196a-504b-b504-632f48e8e96c"/>
+  </producedTypes>
+  <name>ПараметрыПодключенияКИсточникуДанныхНаПлатформе1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры подключения к источнику данных на платформе 1С:Предприятие</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

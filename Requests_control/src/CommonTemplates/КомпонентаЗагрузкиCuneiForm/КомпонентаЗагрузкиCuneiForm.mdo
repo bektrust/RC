@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="955e57f0-e6a2-45e6-9104-6e189452ca33">
+  <name>КомпонентаЗагрузкиCuneiForm</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента загрузки cunei form</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6c3e9d4-ee74-4f84-8d7a-7bd8ed667e38">
+  <producedTypes>
+    <objectType typeId="0c373608-4786-4a41-97ac-da3d317f3b2d" valueTypeId="7a03ff48-2415-4dc5-9185-48d50653833c"/>
+    <managerType typeId="3d901f4d-63a4-4717-accd-174bf2937b76" valueTypeId="39c68b61-ade9-4a2a-b835-1df11093e226"/>
+  </producedTypes>
+  <name>ВсеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <defaultForm>DataProcessor.ВсеОтчеты.Form.ФормаПоКатегориям</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ad28a60d-8a6b-4221-baf7-bb4dea66961c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09bc9db7-0e3e-4bc4-8a63-d315832cef5b">
+    <name>ФормаПоКатегориям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма по категориям</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c92855cf-9c96-40d8-9317-9e696d7a0432">
+    <name>ВсеОтчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

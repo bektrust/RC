@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6855567a-b393-456c-a71a-8a792a8bf2fc">
+  <name>ОбщегоНазначенияДокументооборотВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения документооборот вызов сервера</value>
+  </synonym>
+  <comment>Серверные процедуры и функции общего назначения</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

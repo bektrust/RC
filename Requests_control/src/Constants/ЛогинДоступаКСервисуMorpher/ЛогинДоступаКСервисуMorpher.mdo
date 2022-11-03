@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc892416-a185-48fc-a345-91e96002bd92">
+  <producedTypes>
+    <managerType typeId="1706f377-5ab3-4bd7-89cb-bf7d00268b6b" valueTypeId="7c959b6e-3882-465f-83b1-4ff453ca2661"/>
+    <valueManagerType typeId="0e4148a5-c78a-4bd3-ab59-fe7ce8bf084a" valueTypeId="0b5f23f2-c609-4e13-bcc2-06ad2ca65746"/>
+    <valueKeyType typeId="755367d6-a667-5f83-a23c-a987b6cc8668" valueTypeId="6d525b88-3baf-5d5d-a770-7bf3768c5483"/>
+  </producedTypes>
+  <name>ЛогинДоступаКСервисуMorpher</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин доступа к сервису morpher</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

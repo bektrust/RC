@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1948b13-b004-496a-acfc-5f529b5200b9">
+  <producedTypes>
+    <refType typeId="8db80a08-814c-432a-852d-2d43e5470de3" valueTypeId="b76f8a31-eacc-4891-83d1-aa41ea145456"/>
+    <listType typeId="aa6337d6-efe9-4864-8286-9c77a02a9a58" valueTypeId="729d45f0-1ac5-49d0-a0b6-ec491279b9a6"/>
+    <managerType typeId="e90d84d9-dc44-43cb-a3b9-f29f86339cc4" valueTypeId="d8ddf753-f1fa-43d0-a02a-6f7db8da9dbd"/>
+  </producedTypes>
+  <name>СтатусыРаспознаванияТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы распознавания текста</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="46ede44e-96fd-4d21-9bb8-188545e8143d">
+    <name>НеНужноРаспознавать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не нужно распознавать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a84c145f-457e-4448-bb5c-a09f62c40678">
+    <name>НужноРаспознать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нужно распознать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3dc8bb7-afe8-495d-bb69-9d1da23217c0">
+    <name>Распознано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распознано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b869479e-032f-418d-a0a8-024da2e65930">
+    <name>НеРаспознано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не распознано</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

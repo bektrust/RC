@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dbcbad9-a5e7-4970-84f7-db92669ee80d">
+  <producedTypes>
+    <managerType typeId="d4e9694d-a6fc-4b31-9db1-22348174a461" valueTypeId="5567644b-c837-4398-96a5-fbedafc1b791"/>
+    <valueManagerType typeId="1e76e21d-5c36-4175-bf28-41dc0d5d4a7a" valueTypeId="d17778b1-ea96-4f96-b983-a234f4db51dd"/>
+    <valueKeyType typeId="9db160ef-dc69-50d4-ba6f-e8b16321000d" valueTypeId="a9a4c067-b524-5e21-aca4-7e3d490db697"/>
+  </producedTypes>
+  <name>ИспользоватьImageMagickДляРаспознаванияPDF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать image magick для распознавания PDF</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

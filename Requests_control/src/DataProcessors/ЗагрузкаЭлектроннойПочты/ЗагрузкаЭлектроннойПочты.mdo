@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bec321f-591d-4d10-bfee-399f224665a5">
+  <producedTypes>
+    <objectType typeId="48d6b93d-cda7-4c4f-b05f-18c578d28f49" valueTypeId="ebe75951-3a62-4cce-83ac-56edd85121c3"/>
+    <managerType typeId="f4536e85-f135-49ea-9cb4-3aa753378449" valueTypeId="483f2d3f-8266-454e-b246-6d3a05b63bca"/>
+  </producedTypes>
+  <name>ЗагрузкаЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка почты</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаЭлектроннойПочты.Form.ЗагрузкаЭлектроннойПочты</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="17715ab2-0250-4362-8a9e-66d5fd838be1">
+    <name>ЗагрузкаЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка электронной почты</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ba427db-2978-4689-99d7-6b21349c4b14">
+    <name>ПредупреждениеОСозданииДубля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение о создании дубля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2f6577ea-f71b-4bb2-b4c4-0a87e5eae153">
+    <name>ЗагрузкаЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка электронной почты</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузка электронной почты</value>
+    </toolTip>
+    <shortcut>Ctrl+M</shortcut>
+  </commands>
+</mdclass:DataProcessor>

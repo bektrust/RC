@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad7265b-61b3-4e15-bb28-f01a20d39d36">
+  <producedTypes>
+    <refType typeId="1acbb963-4b69-46f8-be0a-810c8f36b280" valueTypeId="f89ea3c3-6d64-43d8-be03-ad0ae0ccd628"/>
+    <listType typeId="615df7e4-9bc4-49f2-a799-559e1af5a08c" valueTypeId="65c5fa6a-0fcc-4371-9c36-ea46255933af"/>
+    <managerType typeId="38325e98-169c-42b5-8de7-80ba9ca103b3" valueTypeId="7b6ce4ad-6acc-4797-8668-96e5ae22ee2c"/>
+  </producedTypes>
+  <name>ОрганУчреждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Орган, учреждение</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="46f1942a-3bc7-4156-bdf9-558850463df7">
+    <name>Орган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Орган</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db3337cd-e2ca-4280-a8c1-8d2e66854c40">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d610592-6daa-4260-acf3-76a4d9e200b0">
+  <producedTypes>
+    <objectType typeId="92094f4f-3f42-442e-b271-6fc62d01e184" valueTypeId="fcb4439d-58da-4866-820d-38195d7d3ee6"/>
+    <managerType typeId="af8cc689-9227-4063-8926-578d948ca01f" valueTypeId="0f754e8b-0c9f-436a-bb31-8de41e3cefd3"/>
+  </producedTypes>
+  <name>ОбновлениеКлассификатора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление классификатора</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбновлениеКлассификатора.Form.Форма</defaultForm>
+  <forms uuid="bede06ca-8d19-4f64-aeea-1f4f818fa7f4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9b18543-1a57-4af2-b60e-629fb0056abd">
+    <name>ВводПервогоПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод первого пользователя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2292fc55-3d22-48a4-8c12-d25ea79a40ee">
+  <producedTypes>
+    <objectType typeId="7cd4ca8c-8fef-480c-93dc-ea0ff541e5ca" valueTypeId="1745ff50-ae4b-4c8e-bf5a-a49db9776335"/>
+    <managerType typeId="ebe04285-9a55-4327-9d95-79af3c3ee7c4" valueTypeId="aa813ed7-a939-4c69-9f33-68308b6b3623"/>
+  </producedTypes>
+  <name>ВыгрузкаВССТУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка в ССТУ</value>
+  </synonym>
+  <defaultForm>DataProcessor.ВыгрузкаВССТУ.Form.Форма</defaultForm>
+  <forms uuid="9cfdc8fb-d8f0-463d-a20e-bc7265da26e9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36c60fa8-a153-40b0-b90e-a913d736b801">
+    <name>ПроблемныеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблемные объекты</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="72fbea67-b014-486c-8ce9-345f5fe2bb0f">
+    <name>ВыгрузкаВССТУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка в ССТУ</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

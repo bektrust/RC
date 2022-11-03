@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c7306eb-0672-4f02-ab47-1a086f12bbe6">
+  <producedTypes>
+    <managerType typeId="1e39c416-3cf2-463e-9273-fc3e45fc8eb2" valueTypeId="a537b2ad-da62-441b-805d-79017346f6f4"/>
+    <valueManagerType typeId="90ab293f-3915-4cc0-8d6f-c49ebe0533c7" valueTypeId="13849547-fa2c-47d5-a8db-da1e5236fe39"/>
+    <valueKeyType typeId="168a1801-04bc-5598-8306-d7cbad71710f" valueTypeId="4c35e137-c973-5ab8-b7d4-098c32a41b71"/>
+  </producedTypes>
+  <name>СрокХраненияНеактивныхВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок хранения неактивных версий</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>6</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

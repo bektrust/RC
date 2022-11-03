@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e122421-94f9-4725-9d67-1fe349c57019">
+  <name>ПодборИзКлассификатораОбращенийГражданСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор из классификатора обращений граждан (сервер)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

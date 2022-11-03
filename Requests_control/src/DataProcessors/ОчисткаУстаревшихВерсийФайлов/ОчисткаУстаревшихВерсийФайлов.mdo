@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a7a6fad-3bc1-42aa-b248-ff129ad8e243">
+  <producedTypes>
+    <objectType typeId="49ce2c4c-3d8c-44be-a748-e671d6cf67b5" valueTypeId="93cd319f-fcb0-48cf-85f6-662a13df1249"/>
+    <managerType typeId="16e7af86-1324-4112-9d26-c6f9595a3445" valueTypeId="bb84ebc3-c28d-48fb-9fe0-d1ad314189a2"/>
+  </producedTypes>
+  <name>ОчисткаУстаревшихВерсийФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка устаревших версий файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОчисткаУстаревшихВерсийФайлов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f71db445-5739-4a2f-8ce5-8fd2e1b6c33c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="29632dc2-52f2-4ad3-93d7-516f2adef0dc">
+    <name>МакетОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

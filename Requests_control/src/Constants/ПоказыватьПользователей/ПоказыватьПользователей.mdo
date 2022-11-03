@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19666d6b-be00-4882-9854-6be3b8156ae6">
+  <producedTypes>
+    <managerType typeId="500724be-5005-4d6c-8c50-a7498704a78e" valueTypeId="973920c5-e09f-4242-9227-94219cf2c3c4"/>
+    <valueManagerType typeId="7e65369d-5147-4211-aec6-0f29e5439ff0" valueTypeId="2eebafd2-ff76-4728-bb9a-9816db3b7895"/>
+    <valueKeyType typeId="a1f36214-e425-5a68-8a11-cbfa887763b2" valueTypeId="977aa94b-586c-52f2-b477-c63ed3c2f423"/>
+  </producedTypes>
+  <name>ПоказыватьПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать пользователей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

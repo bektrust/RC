@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5584aef-1645-4598-b7be-f3fdb9b769c5">
+  <producedTypes>
+    <refType typeId="c881becf-fb1f-4c12-b23d-5983678bea3f" valueTypeId="61f70235-0923-4491-ad15-9c15ece84335"/>
+    <listType typeId="bd365d41-433a-43c0-a309-654d1bc9621e" valueTypeId="29b652ce-b01c-444d-ad45-8d651f3d5383"/>
+    <managerType typeId="d49d6c3a-e590-470a-a926-0078d8b45cc2" valueTypeId="c3a1d160-4d9d-40e2-805d-7b22edbb68de"/>
+  </producedTypes>
+  <name>ТипыДоговорныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы договорных документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9cf75258-2367-47f3-9e1e-b5e92cf7f1a3">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7de3b49b-cc62-47b1-b2e1-2113cb9be6a3">
+    <name>ДопСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допсоглашение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4fa4d35-75de-4c80-ae72-d721a578f7f9">
+    <name>Акт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70c52af7-3432-4ea0-9ff7-9f6b1913d04e">
+    <name>Накладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afc5594a-59b3-4bf8-bc66-ddf2916ee4ed">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

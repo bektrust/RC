@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c78e18ea-646d-444e-8ba2-4b9bc28a3cd8">
+  <name>ПараметрыОтправкиПочтовогоСообщенияВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры отправки почтового сообщения вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

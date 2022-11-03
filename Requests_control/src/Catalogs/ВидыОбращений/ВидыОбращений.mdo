@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e27ca146-2e5f-47a1-9305-d19079875fd2">
+  <producedTypes>
+    <objectType typeId="9dccf271-c1f2-45c2-abe8-5a845d15ec44" valueTypeId="9dc0d2da-69c5-426e-a879-a4fb6c08b4ff"/>
+    <refType typeId="ec9b0611-ea6f-4001-9890-07c62086e40e" valueTypeId="52e7bc67-fd9c-4238-a76f-d711c96bfcf3"/>
+    <selectionType typeId="a1a7a1a0-a213-4497-9ae8-56e740576ac9" valueTypeId="c05e795f-2721-4d54-ac4e-0a4e55c0547b"/>
+    <listType typeId="5f46bcf2-21b1-49e7-837e-d60e80a8d927" valueTypeId="dafc97ea-257f-4ca0-8719-0a7e176bb44f"/>
+    <managerType typeId="b61bb811-914c-410f-8672-98d66d7be535" valueTypeId="6db778ed-f924-4a73-98ce-99871ac147b4"/>
+  </producedTypes>
+  <name>ВидыОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды обращений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОбращений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыОбращений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Вид обращения</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыОбращений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыОбращений.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыОбращений.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c7c2117d-4550-49af-bb1a-f1c073d452e6">
+    <name>ИндексНумерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс нумерации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5b0711af-44a9-47ba-8565-ed5905d2b42e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c0fcc2c7-ffe2-4fbc-9c7a-4efda8cf012f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3a37a69-00ea-4f7c-b517-8a3150bacc88">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

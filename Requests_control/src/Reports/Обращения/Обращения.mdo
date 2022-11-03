@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9af678a-0ede-474d-bc03-d29368169459">
+  <producedTypes>
+    <objectType typeId="d9c14969-9d88-409b-b672-1aa18519d674" valueTypeId="0401b87a-4c19-45fc-b370-c20752ac5fcb"/>
+    <managerType typeId="fb3bcac9-446d-423e-b44b-09b7ec7dc5f1" valueTypeId="a7e4f6d4-ba41-4f7c-80bf-8ba75fa19a8d"/>
+  </producedTypes>
+  <name>Обращения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обращения</value>
+  </synonym>
+  <defaultForm>Report.Обращения.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Обращения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="9adc513f-c92e-43c7-94b5-aa3b20b343ec">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5132bc3e-36ba-424e-9397-11959b58226f">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5398c3ec-8032-48d5-8765-8106bcc78fb2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="faeeddd3-7f53-402f-93ac-fe0ec222b971">
+    <name>ОбразецОтчетаВидОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета вид обращения</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="b2a1091c-a62d-45c7-b9cd-8480c0ebc8e8">
+    <name>ОбразецОтчетаДинамикаКоличестваОбращений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета динамика количества обращений</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d850f245-c0ca-4c51-a33a-377815bb1112">
+    <name>ОбразецОтчетаОбращенияСИстекающимСрокомДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета обращения с истекающим сроком действия</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="8e7a5e2b-1b44-4ef8-bfd7-fc8e6b6f480d">
+    <name>ОбразецОтчетаСписокОбращений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета список обращений</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

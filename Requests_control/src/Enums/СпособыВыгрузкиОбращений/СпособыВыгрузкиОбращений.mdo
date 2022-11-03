@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b8b8ffa-4043-441b-b58f-827d4c6a1d23">
+  <producedTypes>
+    <refType typeId="4f0ea8b9-54fc-4ae6-b847-d8972635478d" valueTypeId="19ba008a-3c80-406e-9495-803bddd5b10e"/>
+    <listType typeId="c916edbe-4f2e-4c04-9200-d34b8b8cc79e" valueTypeId="17b9e384-f16f-48a5-802a-7c3be81cc87d"/>
+    <managerType typeId="fae16f58-ae8b-456c-aab2-1e27e11ae85e" valueTypeId="3a145cb2-23ac-4ed2-9a3c-814d61599b52"/>
+  </producedTypes>
+  <name>СпособыВыгрузкиОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы выгрузки обращений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69b34948-ba04-42f3-8305-31c748ef2b03">
+    <name>ВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>В файл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82ddbbea-089d-489a-96ae-a9054e1852d8">
+    <name>НаВебРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>На веб-ресурс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

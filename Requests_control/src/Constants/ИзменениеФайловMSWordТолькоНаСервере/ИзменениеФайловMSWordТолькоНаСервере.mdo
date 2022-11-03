@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91ad3082-df12-4153-a61b-07c8981336b5">
+  <producedTypes>
+    <managerType typeId="4c729732-f547-4a47-9919-97db96355b3e" valueTypeId="544f1042-f92b-41ec-9af2-1c113f70c227"/>
+    <valueManagerType typeId="879b055e-5316-4ac6-a45f-d728824cab2b" valueTypeId="bb8611a6-312e-4bff-ac78-812bb21b57a8"/>
+    <valueKeyType typeId="6eb85f05-785d-58fb-8d48-13f6d6b35b77" valueTypeId="ef9cba73-c81b-5d33-8804-a9cf6057cf6e"/>
+  </producedTypes>
+  <name>ИзменениеФайловMSWordТолькоНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменять файлы Microsoft Word (*.doc, *.docx) только на сервере</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

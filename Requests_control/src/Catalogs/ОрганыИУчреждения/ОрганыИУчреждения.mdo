@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01c687ef-2ab6-49ca-8c16-b1cfabc2a525">
+  <producedTypes>
+    <objectType typeId="0baad2d3-ec5b-429d-ad8e-567049758e1b" valueTypeId="b1c4c4ac-9218-4027-a5cb-7e3c00cb0d86"/>
+    <refType typeId="eac40268-6c74-45ab-9280-4cc1d5f796c5" valueTypeId="ecba441f-b30b-42ce-bd28-1eb91c53338b"/>
+    <selectionType typeId="d18be5d9-bd10-469b-a528-a719f7a97877" valueTypeId="fed9771d-2baa-4359-a4f4-9d9863a83516"/>
+    <listType typeId="f80a6c45-6ea4-4f5b-b1f3-33eb45e12be6" valueTypeId="cb5dea73-d33c-4970-ae02-6e330b6d006a"/>
+    <managerType typeId="044a752c-3643-42bc-8e5f-9ca3b6f4ae88" valueTypeId="9ab6d63a-700f-43f2-923f-e08eb16cf08d"/>
+  </producedTypes>
+  <name>ОрганыИУчреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Органы и учреждения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОрганыИУчреждения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОрганыИУчреждения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Орган, учреждение</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e0a1d192-ca5e-40cd-baa0-e7642c253826">
+      <name>НашеУчреждение</name>
+      <description>Наше учреждение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОрганыИУчреждения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОрганыИУчреждения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ОрганыИУчреждения.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c641f0e2-804c-43fe-9edb-f5f755ba67b5">
+    <name>ИдентификаторССТУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор ССТУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="317a3350-a1c6-4b94-b61f-480b6754ccdf">
+    <name>ОрганУчреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Орган, учреждение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОрганУчреждение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ОрганУчреждение.EnumValue.Орган</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7eea320f-9a71-481e-ac46-0250144f44f3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42b05c41-308b-4ae1-aa95-76be31aeb250">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1ec865e-6f00-4c1a-842a-a0420501d2d8">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="26fc2fbf-e024-42e3-a44c-b2475703e4c7">
+    <name>НашеУчреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наше учреждение</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

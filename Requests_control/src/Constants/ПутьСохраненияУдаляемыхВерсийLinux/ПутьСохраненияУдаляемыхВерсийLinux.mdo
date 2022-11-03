@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8217a4de-ae7f-474a-8ee1-abdac22ca119">
+  <producedTypes>
+    <managerType typeId="f7b9f379-1d61-4d18-9d9e-2aea67bf9139" valueTypeId="117be903-04cd-4b2a-9d60-8d995a29839b"/>
+    <valueManagerType typeId="09e04916-51c4-4b2d-aed2-8edd60f9c9f4" valueTypeId="7348bee3-4442-409a-9246-8a6ea789818b"/>
+    <valueKeyType typeId="8471ecaa-3ca9-56b8-ac1a-9b1ee59bc557" valueTypeId="894d5f8e-4390-5332-8957-64686834a84b"/>
+  </producedTypes>
+  <name>ПутьСохраненияУдаляемыхВерсийLinux</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь сохранения удаляемых версий linux</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

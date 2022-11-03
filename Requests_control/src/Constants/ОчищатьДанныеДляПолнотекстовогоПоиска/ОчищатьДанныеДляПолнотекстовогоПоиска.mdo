@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69f00407-46bd-48cf-9c3b-131a1ea1b03d">
+  <producedTypes>
+    <managerType typeId="1e5485b9-e4b8-4510-b572-23e7fde9047d" valueTypeId="9e10fe48-26e7-40fc-9d3e-d6860d2c4e43"/>
+    <valueManagerType typeId="deea25bf-798a-497d-a836-1fa2373e170b" valueTypeId="ac22fc94-e3b8-4f19-a3e9-3a4e8ef03cce"/>
+    <valueKeyType typeId="21710c69-2b6d-5679-8687-49ab204b8df8" valueTypeId="21ad8fb5-417d-5647-b5a1-8da9f17d29ea"/>
+  </producedTypes>
+  <name>ОчищатьДанныеДляПолнотекстовогоПоиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очищать данные для полнотекстового поиска</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

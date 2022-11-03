@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27b0560e-7cf5-4af7-a3e3-7f3a80eea16d">
+  <producedTypes>
+    <refType typeId="367d8fa7-a5b9-4d6c-abc0-87ba60051481" valueTypeId="b17a95dd-c077-4a61-98e0-045c806f8b78"/>
+    <listType typeId="b5b5b6b3-d299-408d-8a40-49453b349f15" valueTypeId="7e4f31bf-f47a-48fa-909e-e57cd0ee6b27"/>
+    <managerType typeId="68bc2b72-623e-4241-afe9-c5c75685fe86" valueTypeId="56969aa0-2104-4817-aad2-d472d5810b9c"/>
+  </producedTypes>
+  <name>РезультатыРассмотрения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты рассмотрения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="03d01e70-c6b3-4477-ac79-174e185c075d">
+    <name>Поддержано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поддержано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9def783d-7917-4f99-94b3-341c1219313d">
+    <name>ВТомЧислеМерыПриняты</name>
+    <synonym>
+      <key>ru</key>
+      <value>В том числе меры приняты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11d4b577-4571-4c6c-8cf2-dd767c9680f7">
+    <name>Разъяснено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разъяснено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba18e299-33d0-4060-99e3-0bc0b49944c2">
+    <name>НеПоддержано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не поддержано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="505b56f5-b6be-4716-b155-46878a08dc67">
+    <name>ОставленоБезОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оставлено без ответа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b41cf682-4012-4d21-bbfb-eceef937fb52">
+    <name>НаправленоВИнойОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направлено в иной орган, в компетенцию которого входит решение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

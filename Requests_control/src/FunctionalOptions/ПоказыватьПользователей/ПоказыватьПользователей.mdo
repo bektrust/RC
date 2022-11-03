@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92d2a55c-e365-41fc-adef-9c6d628f3b65">
+  <name>ПоказыватьПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать пользователей</value>
+  </synonym>
+  <location>Constant.ПоказыватьПользователей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ФайлыВРабочемКаталоге.Dimension.Пользователь</content>
+  <content>Catalog.Файлы.Attribute.Автор</content>
+  <content>Catalog.Файлы.Attribute.Редактирует</content>
+  <content>Catalog.Файлы.Attribute.ТекущаяВерсияАвтор</content>
+  <content>Catalog.ВерсииФайлов.Attribute.Автор</content>
+</mdclass:FunctionalOption>

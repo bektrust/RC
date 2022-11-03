@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1c29716-a479-4d48-be81-3fe7b943dd3a">
+  <producedTypes>
+    <objectType typeId="38cfa685-22c3-415c-be25-59c64ae154e5" valueTypeId="87ab55f1-e295-47b1-a40e-909deadf627d"/>
+    <managerType typeId="a3b914ea-4bc2-4fc3-9cac-5fe57b1da17f" valueTypeId="48f0651b-a394-4789-8f98-3afb6e2299b4"/>
+  </producedTypes>
+  <name>ЗагрузкаКлассификатораОбращенийГраждан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка классификатора обращений граждан</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКлассификатораОбращенийГраждан.Form.ФормаВыбораИзКлассификатора</defaultForm>
+  <forms uuid="c4d46a31-ee41-4bc9-bd84-aa5d3ca23f97">
+    <name>ФормаВыбораИзКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора из классификатора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="eaccc1f5-00f3-44a8-9df4-bb59c58af2c1">
+    <name>Классификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор</value>
+    </synonym>
+  </templates>
+  <commands uuid="f9a2cee6-bb6b-4d5e-83b4-c400240244d1">
+    <name>ЗагрузитьКлассификаторОбращенийГраждан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор обращений граждан</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

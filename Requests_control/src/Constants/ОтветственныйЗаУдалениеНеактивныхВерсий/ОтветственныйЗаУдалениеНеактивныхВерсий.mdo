@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35342dcb-50dd-4f43-865c-2da71d52251b">
+  <producedTypes>
+    <managerType typeId="76e00cc0-d629-4078-a5e5-5ad253d166a7" valueTypeId="a26f4fd7-bd15-4b04-9e62-9b68dd1e9444"/>
+    <valueManagerType typeId="7afbeb0b-0cd2-4b53-b8b5-d93371e56f48" valueTypeId="4236a7c1-b822-4e8d-863a-1b1e4f1f0253"/>
+    <valueKeyType typeId="b46dbf7f-3c33-575c-9600-199f608c3784" valueTypeId="b5432bf1-9cfa-51b4-ba37-9be5c29854fc"/>
+  </producedTypes>
+  <name>ОтветственныйЗаУдалениеНеактивныхВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственный за удаление неактивных версий</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

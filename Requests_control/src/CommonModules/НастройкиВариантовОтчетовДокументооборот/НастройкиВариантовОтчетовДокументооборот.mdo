@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fefd2780-648c-458b-a101-d40623808b9d">
+  <name>НастройкиВариантовОтчетовДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки вариантов отчетов документооборот</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

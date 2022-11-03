@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef7f0f63-c4e2-4e3d-92a5-3d30bbbc4d7b">
+  <producedTypes>
+    <objectType typeId="b94e3fd1-7e4d-4ae0-afbf-8c1857359ee2" valueTypeId="6f66475f-f0c2-4957-9e6e-0da964a3dc1c"/>
+    <refType typeId="4fe4fd98-5711-4381-ae39-e8b42631c7c3" valueTypeId="7afc2542-5b1f-47df-9268-a10d175a5a15"/>
+    <selectionType typeId="014ca3ef-c3b1-405f-8b8d-a49e73f559fb" valueTypeId="da02bdcb-db87-4876-928d-0cf5110e7336"/>
+    <listType typeId="3ac65bf3-b301-47d4-8cb9-644a7ea4c34e" valueTypeId="7dae429c-5826-4db6-8e8b-9445b1519d8c"/>
+    <managerType typeId="93d60995-4439-483f-9a39-02d4b503a810" valueTypeId="ddbfde0a-3080-46ca-a297-c59855e67e05"/>
+  </producedTypes>
+  <name>Нумераторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумераторы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Нумераторы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Нумераторы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Нумератор</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Нумераторы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Нумераторы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="d25089e5-a45c-406b-84b0-6fffff944c20">
+    <name>ФорматНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат номера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2677fb1e-a465-46f1-960c-29afc45b9626">
+    <name>Пример</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пример</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="140e552e-79b2-481f-ae42-9f0199606d25">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23733f64-0ce6-41e5-a09f-b829cf6dfabc">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

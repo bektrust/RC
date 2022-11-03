@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20a78b12-50e2-4a9a-986f-7dafdd16301a">
+  <producedTypes>
+    <managerType typeId="01349ca6-00f5-4ffa-879a-624f5cadf2fe" valueTypeId="b112882e-9ac5-402d-8e72-83c086bff053"/>
+    <valueManagerType typeId="24381af1-38f6-447d-8812-b1f5c929709e" valueTypeId="947ddb62-3046-489a-b21b-990f90bdb063"/>
+    <valueKeyType typeId="e885fdcc-9b81-57c7-b199-560166217a6a" valueTypeId="d84ba880-585b-5683-8c5b-4fc566f61db0"/>
+  </producedTypes>
+  <name>ТипОповещенияОтветственногоЗаУдалениеНеактивныхВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип оповещения ответственного за удаление неактивных версий</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

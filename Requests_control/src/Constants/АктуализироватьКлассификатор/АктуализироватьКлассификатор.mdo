@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0ad5235-eeee-4d4d-830c-419b3d7b8193">
+  <producedTypes>
+    <managerType typeId="698d7ac5-a520-444d-811a-def2ec027871" valueTypeId="d1bb24f8-80d2-46d8-baff-fed46e5c9677"/>
+    <valueManagerType typeId="7f7ad5e6-9592-4e5d-a35d-5027843cb019" valueTypeId="14091448-37ca-4ea5-ae33-673e46584344"/>
+    <valueKeyType typeId="41f8dd4d-34db-55d6-b30d-9d2c0f63dd62" valueTypeId="af2840bd-c365-5709-9701-04ed144e6384"/>
+  </producedTypes>
+  <name>АктуализироватьКлассификатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализировать классификатор</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

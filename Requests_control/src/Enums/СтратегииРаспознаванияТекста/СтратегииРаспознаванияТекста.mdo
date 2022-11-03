@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ce2db49-5c60-475d-b743-628e13260af0">
+  <producedTypes>
+    <refType typeId="a8c14718-2a5f-42d7-92fe-c5f31b6bc6b2" valueTypeId="9e32ae5d-86f2-4301-9a06-05a1a1b5d96a"/>
+    <listType typeId="748905e8-61fd-4da1-af49-915ddecba3b4" valueTypeId="db4a887a-b7e2-403a-97b8-bf51310b4f81"/>
+    <managerType typeId="036fca85-0a91-4a63-93d8-181b502f1a8c" valueTypeId="405e345f-40be-4f8a-bc06-37eca7cf9570"/>
+  </producedTypes>
+  <name>СтратегииРаспознаванияТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стратегии распознавания текста</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ea49a54e-acb7-451b-8adf-38f5685bfae8">
+    <name>НеРаспознавать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не распознавать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c89e8c2-f74f-4c31-a3b7-1701644d04cb">
+    <name>ПоместитьТолькоВТекстовыйОбраз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поместить только в текстовый образ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ac26dd6-b5ab-469b-b5e5-4263a494aace">
+    <name>СоздатьНовуюВерсиюHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать новую версию HTML</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44de46b3-2769-4618-a355-d049d69c6308">
+    <name>СоздатьНовуюВерсиюTXT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать новую версию TXT</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e7fec45-f0fc-4e38-b1ad-1e6d6e19e82f">
+    <name>СоздатьНовыйФайлHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать новый файл HTML</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e85b3d97-5f6e-4e5f-adec-b32475748fc9">
+    <name>СоздатьНовыйФайлTXT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать новый файл TXT</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

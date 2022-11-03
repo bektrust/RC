@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13310228-a035-4200-8ae0-1570766731d3">
+  <producedTypes>
+    <objectType typeId="7d6f0dd6-a70b-4c23-ac69-f7e162213460" valueTypeId="a7e1e67f-2b75-4a8c-9ff7-b1c0bfe33e2e"/>
+    <managerType typeId="801b6b4e-05d8-413c-b83f-995d5f53ca3d" valueTypeId="419f9c60-5fab-4568-a38d-00cee960e9be"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетПоРезультатамРассмотренияОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированный отчет по результатам рассмотрения обращений</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетПоРезультатамРассмотренияОбращений.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.РегламентированныйОтчетПоРезультатамРассмотренияОбращений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Регламентированный отчет по результатам рассмотрения обращений</value>
+  </extendedPresentation>
+  <forms uuid="71f0edbd-d780-467c-bb6f-9fde112d4c5b">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bfb3551d-3791-4180-bc33-c26e83bf118a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="a9fd9db6-9727-4eac-8775-8bf9f3adae51">
+    <name>МакетОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="280803ef-8cb4-446d-8036-bafca3f74e28">
+    <name>ОбразецОтчетаОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета основной</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="1b0e5292-37cf-4882-8dd5-7a40776e80c9">
+    <name>ОткрытьОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентированный отчет</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1adace9d-3497-4152-b46b-27fe2c14ae22">
+  <producedTypes>
+    <managerType typeId="eb6f3dac-f8e6-41d6-a7b1-6c063761ac78" valueTypeId="ff357423-62db-4db7-9472-543d555a67cd"/>
+    <valueManagerType typeId="e8169490-901b-4f14-b7aa-5c568f262732" valueTypeId="e9ed3c4d-a082-48d3-8e8e-7c35a3a3e411"/>
+    <valueKeyType typeId="6b28a4ce-c482-560e-b79e-8d758c43829f" valueTypeId="c2417da7-0dce-59d4-b232-57abe528804f"/>
+  </producedTypes>
+  <name>ПутьКПрограммеКонвертацииPDF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к программе конвертации PDF</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

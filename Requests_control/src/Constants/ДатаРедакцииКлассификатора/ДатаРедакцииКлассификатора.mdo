@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d2f953d-2f7d-406a-8251-03c95a6988ed">
+  <producedTypes>
+    <managerType typeId="d98ef777-632e-41b6-a760-85db4b1f2893" valueTypeId="6524a34f-5a89-48b6-b331-8ffbe7238604"/>
+    <valueManagerType typeId="141919e9-341f-46fc-b8c4-3d5a6da2e0bf" valueTypeId="c99d51ee-4611-42c6-84d8-22dab728d57d"/>
+    <valueKeyType typeId="d67b3a34-b1e1-5050-9e83-684218625711" valueTypeId="624e621f-c845-5b6c-b5b2-10f51c266aa7"/>
+  </producedTypes>
+  <name>ДатаРедакцииКлассификатора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата редакции классификатора</value>
+  </synonym>
+  <type>
+    <types>DefinedType.ДатаРедакцииКлассификатора</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Дата утверждения классификатора</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

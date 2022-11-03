@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49ccb57e-e4af-4530-8de2-6e8c7078ec4c">
+  <name>ПараметрыОтправкиПочтовогоСообщенияПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры отправки почтового сообщения повт исп</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

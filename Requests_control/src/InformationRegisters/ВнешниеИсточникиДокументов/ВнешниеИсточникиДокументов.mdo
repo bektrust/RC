@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31f89fa2-67b4-4c3f-8a1d-0c9ecf8a6f70">
+  <producedTypes>
+    <selectionType typeId="26248d44-3fad-405f-90dd-8edc627a73f8" valueTypeId="5dc053ff-88cb-4937-bd81-03d7abcd0a29"/>
+    <listType typeId="027cb157-dfeb-4529-8223-f7c31920e37b" valueTypeId="1502ae8b-04bc-4cf3-98ea-0251655803cf"/>
+    <managerType typeId="9a53866b-7c8c-4494-8407-d97ea8cddff8" valueTypeId="f3120e2c-940c-4f29-87b8-1ca5fe46dfc0"/>
+    <recordSetType typeId="6bd7fbdd-9252-41a8-8104-0c46cf469725" valueTypeId="4afcfac6-28f8-4e77-934d-c1fcff8ca167"/>
+    <recordKeyType typeId="0e11e73e-48f0-4f85-b909-1bc7ff974d2f" valueTypeId="8c60c611-d0f0-4c07-83ea-19367bf1bd98"/>
+    <recordType typeId="0d9a7a86-a01e-4e6f-91e5-0c58ef257447" valueTypeId="61c6e80e-13af-4af4-aaf9-1708ad9829f8"/>
+    <recordManagerType typeId="ddaf544a-015c-4692-8aa3-163f74e073e8" valueTypeId="0ec5ae90-e0f0-4066-b4f6-a269bce4877f"/>
+  </producedTypes>
+  <name>ВнешниеИсточникиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние источники документов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит идентификаторы почтовых сообщений из которых были загружены документы или файлы.</value>
+  </explanation>
+  <dimensions uuid="5a771678-7cb1-41e9-bd52-71f00718bb65">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6b65567b-4617-4cc6-b4d6-3559cc061456">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Файлы</types>
+      <types>CatalogRef.Обращения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

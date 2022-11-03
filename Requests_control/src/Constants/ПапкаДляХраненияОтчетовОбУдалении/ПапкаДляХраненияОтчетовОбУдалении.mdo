@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fac16274-7928-4a46-bf2c-6971a1bfa54a">
+  <producedTypes>
+    <managerType typeId="6b635e8d-e181-4d56-bd7b-8d34ec8d8904" valueTypeId="85bb473e-0c61-4aac-9efe-262715051bc8"/>
+    <valueManagerType typeId="307f87fe-06ad-4d7d-b9ae-ab1d024e5dbd" valueTypeId="cef11a6a-9ae1-49fc-9e4c-f2b0015c0e47"/>
+    <valueKeyType typeId="0e5d0dff-14c5-573b-a18c-919f944ea356" valueTypeId="76a86116-4885-5806-a9e1-e670ef0cbbf9"/>
+  </producedTypes>
+  <name>ПапкаДляХраненияОтчетовОбУдалении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папка для хранения отчетов об удалении</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

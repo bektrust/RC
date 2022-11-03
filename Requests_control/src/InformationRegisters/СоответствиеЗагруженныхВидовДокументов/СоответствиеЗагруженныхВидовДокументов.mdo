@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fea3a47c-e17c-4bd6-875f-003767bf2dda">
+  <producedTypes>
+    <selectionType typeId="a5d0686d-ca01-45e3-a45a-161d5404132b" valueTypeId="3b356c88-33a8-4924-8424-783418ed656b"/>
+    <listType typeId="ca93c1ea-fca6-4569-890f-a4d06021ee09" valueTypeId="e5308c07-2cdd-4d01-bf2a-5ea35ae0ad44"/>
+    <managerType typeId="734a0ba9-2f60-4050-8a27-683bc7390ac6" valueTypeId="cf66c0a8-4cdd-4966-9570-2678c786833a"/>
+    <recordSetType typeId="6cd2498a-9dbf-41ea-a364-35163c995e37" valueTypeId="2c9f775f-f0be-426b-833a-13aa5097e4a8"/>
+    <recordKeyType typeId="7e8efad2-5a0f-4c1f-b85a-abcea12eda0b" valueTypeId="d7605d75-8576-4fb1-abf7-3815b935d69f"/>
+    <recordType typeId="40470e53-45a5-4feb-ad77-5f3ba0841324" valueTypeId="5807a314-c9dc-4557-beb8-ef299df5a936"/>
+    <recordManagerType typeId="540add32-d41e-4d75-b19a-351206cdee24" valueTypeId="4331bad2-1518-494d-9cef-2822307355e7"/>
+  </producedTypes>
+  <name>СоответствиеЗагруженныхВидовДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие загруженных видов документов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="67f43d84-c144-4acc-af99-f6ae057db279">
+    <name>ИдентификаторИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор источника</value>
+    </synonym>
+    <comment>Уникальный идентификатор вида документа в ИБ-источнике</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="58a38cd6-e6ca-4c7c-959a-5eeb75919058">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыДоговорныхДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f5666c4-70cb-4a06-873f-a0f5ec213347">
+  <name>ДобавитьПредметСоСканераФормаНовогоФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить предмет со сканера форма нового файла</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f6ed82f-4d80-4518-a891-9a1f982cad93">
+  <producedTypes>
+    <selectionType typeId="a3b31e3a-6663-4055-8a91-5c84430e13d1" valueTypeId="a415b1ce-4206-48a1-abaf-5188a2d75024"/>
+    <listType typeId="56e7938f-2101-4763-8a7c-23cd9b57f476" valueTypeId="f8205169-2ef5-4e22-ad3d-154a4e19fc1e"/>
+    <managerType typeId="b685f414-f2a9-460c-a869-d0c5759ff8b9" valueTypeId="823dd0eb-9c81-47de-8eca-855ad4170f70"/>
+    <recordSetType typeId="cc457edb-474f-4010-8143-1ab0f0401d62" valueTypeId="8fa64157-653d-4d6a-b2e3-95c6da722bd5"/>
+    <recordKeyType typeId="a6d2b0c2-4644-44ed-a8a8-5803906bacba" valueTypeId="dbbf209c-b3fc-4c92-bbd3-f270999feef4"/>
+    <recordType typeId="c30487ca-3fa5-4869-b5ba-0d0c30f19fa2" valueTypeId="260cae4b-8b01-4351-9a6e-34c24725358d"/>
+    <recordManagerType typeId="213d3331-5143-402c-aefd-499c7a40f7bf" valueTypeId="afb73f6b-cb44-4094-b0c2-673859891c4b"/>
+  </producedTypes>
+  <name>ОбращенияКВерсиямФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обращения к версиям файлов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bf8eebca-f6c1-4d07-b138-7d45cfe0cc21">
+    <name>ДатаПоследнегоОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего обращения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последнего обращения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="eee6a933-0bee-4b09-b39f-6255eadb841c">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииФайлов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

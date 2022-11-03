@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e38a4941-7793-4bcc-b44e-794bc3e54f71">
+  <name>ПредупрежденияПриЗавершенииРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предупреждения при завершении работы</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

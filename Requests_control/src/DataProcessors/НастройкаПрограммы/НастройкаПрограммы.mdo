@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0ff8cf2-fcbc-4b15-b8f2-31d635c6b43c">
+  <producedTypes>
+    <objectType typeId="6813310c-367d-4a97-9c51-194faa74a364" valueTypeId="32b5dbcc-5f53-456b-82e7-8949c1fbc093"/>
+    <managerType typeId="477aca02-424b-44c5-a110-3a2741bceab4" valueTypeId="d3b2ced0-c255-4784-ae49-c13e3a2db1ef"/>
+  </producedTypes>
+  <name>НастройкаПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка и обслуживание</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкаПрограммы.Form.Форма</defaultForm>
+  <forms uuid="ac2668b3-0cf3-49b9-9b6b-7b57a78c8527">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eeb2b380-fac9-415a-8c6c-cbd2c3f6000d">
+    <name>ОбщиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие настройки</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="719c9cce-35f3-491e-8f00-4cf228e76f01">
+    <name>НастройкаПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка и обслуживание</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a42b6c9-82cf-4e1f-8075-ed22e119df57">
+  <producedTypes>
+    <objectType typeId="badbe451-9fa9-41bf-845c-39c33e4260ce" valueTypeId="adddc5ad-d7a9-4b4f-a550-922b3be07437"/>
+    <refType typeId="3c4355d4-1a9f-4ba0-926f-b91c04de85e1" valueTypeId="6c203731-7b0e-42de-b2f4-61f1f0f45b1b"/>
+    <selectionType typeId="42eb1265-b45c-413e-8fc1-0b3f6876df7d" valueTypeId="22f247bb-8cd7-4970-9559-bc23766f8419"/>
+    <listType typeId="052b818f-9d52-4ef4-95b2-04864cd768bb" valueTypeId="8feb43ad-9d27-4ba0-a7c6-58ec9f71c6e7"/>
+    <managerType typeId="93dc4f6b-fb76-4c9c-bd92-d953369675e4" valueTypeId="464d7326-49e9-4456-8ca0-98218dde9bc6"/>
+  </producedTypes>
+  <name>ВыгрузкаВССТУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка в ССТУ</value>
+  </synonym>
+  <inputByString>Document.ВыгрузкаВССТУ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал выгрузки в ССТУ</value>
+  </listPresentation>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВыгрузкаВССТУ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВыгрузкаВССТУ.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6bc66a90-bd61-41b6-9e75-d71efa9f0281">
+    <name>СпособВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ выгрузки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыВыгрузкиОбращений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="243ac970-063a-44b2-9a5a-1b3d710d0050">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a11c3d98-5a8e-4364-bae0-5c45ff97b3bf">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79f4f9b7-6200-4a61-af89-3b5d248158e0">
+    <name>ВключаяРанееВыгруженныеФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включая ранее выгруженные файлы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d20e7708-7afa-4a28-a8b4-0479e89e1b3f">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6e678547-1a0c-468e-877f-6f31e6c3f397">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dfa817af-bfb0-4b9e-b979-e73c9ac47628">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9849b475-39b0-4de5-9290-6c8647847aa0">
+    <producedTypes>
+      <objectType typeId="bb528d29-8f47-47a7-b2e1-4cbaa7ac10c7" valueTypeId="13b68d8a-a5cd-497c-b43b-f2b7714a146d"/>
+      <rowType typeId="18132e6c-317f-4518-ac26-a5ea26c3ac0e" valueTypeId="7ef2ba96-2b92-463f-9355-0409e3cd92d4"/>
+    </producedTypes>
+    <name>Обращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращения</value>
+    </synonym>
+    <attributes uuid="c1204302-1db6-41c7-a458-5f01cbba490f">
+      <name>Обращение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обращение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Обращения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="91b5b779-7d51-48bf-914c-973ac8851d93">
+    <name>СохранитьНаДиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить на диск</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ВыгрузкаВССТУ</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="2ca3ba63-a202-4cc1-93fa-525af3e470e4">
+    <name>ЖурналВыгрузкиВССТУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал выгрузки в ССТУ</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

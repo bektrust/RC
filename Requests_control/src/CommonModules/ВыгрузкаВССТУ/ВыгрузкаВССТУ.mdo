@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9f02f8f-6e5f-413f-89b1-b6d306b43489">
+  <name>ВыгрузкаВССТУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка в ССТУ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

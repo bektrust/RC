@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dc9994d-5619-4f23-a0fc-60f4fc613ddb">
+  <producedTypes>
+    <managerType typeId="c7438a9b-9f44-4256-b814-5c93df48a352" valueTypeId="3355dff9-83ec-47da-a96f-e7fd9f37d4a0"/>
+    <valueManagerType typeId="a838cd62-584c-4d8a-84ca-dec46e30715e" valueTypeId="01c8a9a2-d9bd-45fe-b96f-6cc19d4cc573"/>
+    <valueKeyType typeId="50d88224-7a7c-5dd3-97f8-f4f600921181" valueTypeId="59056167-4a84-5cd2-965e-f5958e0cb6d6"/>
+  </producedTypes>
+  <name>УчитыватьВидыОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учитывать виды обращений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

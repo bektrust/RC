@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54688af6-4a35-4f52-9761-7727b11e4be5" thisNode="a65d7605-6202-4e5f-8591-c753ba0e7446">
+  <producedTypes>
+    <objectType typeId="ead69be5-fae5-4bc6-8f20-e8ce178b6335" valueTypeId="ce0e73e7-8bae-4edf-94b2-ff860897dff2"/>
+    <refType typeId="5f958f07-4a01-432a-adb1-6b8848932b51" valueTypeId="a6831261-320f-4814-92e7-04991a014298"/>
+    <selectionType typeId="8124df3f-bf20-4473-a4d6-df8df5300ae7" valueTypeId="b2c436ed-1de7-40d8-96b4-6f39f478fc99"/>
+    <listType typeId="67087925-ff78-4b50-9e5c-fa0360ffed1f" valueTypeId="a5100ce6-7ae0-4f06-beb1-8e3c70de29e4"/>
+    <managerType typeId="ba559c87-3351-42ed-9735-5d928690efa9" valueTypeId="20127e79-66df-4f31-8412-bd442d624d32"/>
+  </producedTypes>
+  <name>ВыгрузкаВССТУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка в ССТУ</value>
+  </synonym>
+  <inputByString>ExchangePlan.ВыгрузкаВССТУ.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ВыгрузкаВССТУ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>2</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <content>
+    <mdObject>Catalog.Обращения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <distributedInfoBase>true</distributedInfoBase>
+</mdclass:ExchangePlan>

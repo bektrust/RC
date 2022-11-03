@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fea5fd7e-6960-46bd-99d9-dec04e54eed1">
+  <name>ИспользоватьРаспознавание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать распознавание</value>
+  </synonym>
+  <location>Constant.ИспользоватьРаспознавание</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.СтратегииРаспознаванияТекста</content>
+  <content>Enum.СтатусыРаспознаванияТекста</content>
+  <content>Catalog.ВерсииФайлов.Attribute.СтатусРаспознаванияТекста</content>
+  <content>Catalog.Файлы.Attribute.СтратегияРаспознавания</content>
+  <content>Catalog.Файлы.Attribute.ЯзыкРаспознавания</content>
+</mdclass:FunctionalOption>

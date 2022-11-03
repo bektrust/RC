@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fba10f4-b0d1-4349-bbfd-ae4158637a1b">
+  <name>ВыгрузкаВсехФайловДокументаНаДиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка всех файлов документа на диск</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

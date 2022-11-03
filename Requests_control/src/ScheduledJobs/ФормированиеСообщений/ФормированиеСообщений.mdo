@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41de1b28-1890-442c-8a5a-3fe0307c1a6e">
+  <name>ФормированиеСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование сообщений</value>
+  </synonym>
+  <methodName>CommonModule.РаботаССообщениями.ФормированиеСообщений</methodName>
+  <description>Формирование сообщений</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
